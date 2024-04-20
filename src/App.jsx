@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <div className="flex justify-center flex-col items-center">
-        <h1 className="font-serif text-3xl my-4 "> This is The Tech-News-App </h1>
+        <h1 className="font-serif text-3xl my-4 "> Tech-News-App </h1>
         <Search />
 
         <Pagination />

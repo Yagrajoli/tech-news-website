@@ -1,0 +1,13 @@
+
+/* style for small devices */
+
+
+@media screen  and (max-width:768px){
+    .fix-width{
+        width: 90% !important;
+    }
+
+    .px-32{
+        padding: 0 1rem;
+    }
+}

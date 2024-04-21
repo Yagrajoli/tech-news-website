@@ -21,7 +21,7 @@ export default function Stories() {
         {hits.map((storiesPost) => {
           const { title, objectID, author,url,num_comments} = storiesPost;
           return (
-            <div key={objectID} className="sm:w-[40%] border  m-4">
+            <div key={objectID} className="lg:w-[50%] md:w-[60%] sm:w-[90%]  border fix-width m-4">
               <div className="card p-7">
                 <h1 className="text-xl font-serif"> {title} </h1>
                 <p className="py-5 text-[17px]"> <span className="text-gray-500"> By </span>   {author} | <span>{num_comments} </span>  <span className="text-gray-500"> comments </span> </p>
